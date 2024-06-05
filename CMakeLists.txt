@@ -2,8 +2,16 @@ cmake_minimum_required(VERSION 3.25.0)
 project(imgui)
 
 file(GLOB_RECURSE source_files
-	"./*.cpp"
-	"./*.h"
+	"./imgui.cpp"
+	"./imgui.h"
+	"./imgui_demo.cpp"
+	"./imgui_draw.cpp"
+	"./imgui_internal.h"
+	"./imgui_tables.cpp"
+	"./imgui_widgets.cpp"
+	"./imstb_rectpack.h"
+	"./imstb_textedit.h"
+	"./imstb_truetype.h"
 
 	"./backends/imgui_impl_glfw.cpp"
 	"./backends/imgui_impl_glfw.h"

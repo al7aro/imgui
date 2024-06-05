@@ -21,4 +21,4 @@ file(GLOB_RECURSE source_files
 
 add_library(imgui ${source_files})
 
-target_include_directories(imgui PUBLIC backends/ ./)
+target_include_directories(imgui PUBLIC ../glfw/include backends/ ./)

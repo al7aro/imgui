@@ -24,4 +24,4 @@ file(GLOB_RECURSE source_files
 add_library(imgui ${source_files})
 
 # imgui expects GLFW to exists next to it
-target_include_directories(imgui PUBLIC ../glfw/glfw/include ./imgui/backends/ ./imgui)
+target_include_directories(imgui PUBLIC ../glfw/include ./backends/ ./)
